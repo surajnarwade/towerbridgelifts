@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Tower Bridge Lifts</title>
+    <meta name="description" content="Information about the Tower Bridge Lifts project.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="dark-mode"> <!-- Default to dark mode -->
+    <div class="container">
+        <nav class="top-nav">
+            <div class="logo">
+                <a href="index.html" style="text-decoration: none; color: inherit; font-weight: 700;">TB Lifts</a>
+            </div>
+            <div class="nav-right">
+                <div class="nav-links">
+                    <a href="index.html" class="nav-link">Schedule</a>
+                    <a href="tower-bridge.html" class="nav-link">What is Tower Bridge?</a>
+                    <a href="about.html" class="nav-link">About this project</a>
+                </div>
+                <div class="theme-switch-wrapper">
+                    <label class="theme-switch" for="checkbox">
+                        <input type="checkbox" id="checkbox" />
+                        <div class="slider round">
+                            <span class="icon moon-icon">🌙</span>
+                            <span class="icon sun-icon">☀️</span>
+                        </div>
+                    </label>
+                </div>
+            </div>
+        </nav>
+
+        <header>
+            <h1>About this project</h1>
+        </header>
+
+        <section class="about-content">
+            <div class="card">
+                <h2>Where does the data come from?</h2>
+                <p>The data is automatically scraped from the <a href="https://www.towerbridge.org.uk/bridge-lifts"
+                        target="_blank">official Tower Bridge website</a> using a custom script.</p>
+                <p>To respect the official server's resources, our automated process runs only <strong>once every 6
+                        hours</strong> to ensure the information is up-to-date while minimizing load on the origin.</p>
+            </div>
+
+            <div class="card">
+                <h2>Why I made it?</h2>
+                <p>Tower Bridge is one of London's most iconic landmarks. Watching the bridge lift is a unique
+                    experience, but the official timetable can sometimes be hidden away or hard to read on the go.</p>
+                <p>I built this dashboard to provide a fast, modern, and mobile-friendly way to check lift times, with
+                    the added convenience of adding them to your personal calendar instantly.</p>
+            </div>
+        </section>
+
+        <footer>
+            <p>Made with ❤️ by <a href="https://github.com/surajnarwade" target="_blank" rel="noopener">Suraj
+                    Narwade</a></p>
+        </footer>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

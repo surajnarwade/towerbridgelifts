@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tower Bridge Lift Times - Live Schedule</title>
+    <meta name="description"
+        content="Check if Tower Bridge is lifting today. View the live schedule and add bridge lifts to your calendar. Created by Suraj Narwade.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://surajnarwade.github.com/towerbridgelifts/">
+    <meta property="og:title" content="Tower Bridge Lift Times - Live Schedule">
+    <meta property="og:description"
+        content="Check if Tower Bridge is lifting today. View the live schedule and add bridge lifts to your calendar.">
+    <meta property="og:image" content="https://surajnarwade.github.com/towerbridgelifts/og-image.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Tower Bridge Lift Times - Live Schedule">
+    <meta property="twitter:description"
+        content="Check if Tower Bridge is lifting today. View the live schedule and add bridge lifts to your calendar.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="dark-mode"> <!-- Default to dark mode -->
+    <div class="container">
+        <nav class="top-nav">
+            <div class="logo">
+                <a href="index.html" style="text-decoration: none; color: inherit; font-weight: 700;">TB Lifts</a>
+            </div>
+            <div class="nav-right">
+                <div class="nav-links">
+                    <a href="index.html" class="nav-link">Schedule</a>
+                    <a href="tower-bridge.html" class="nav-link">What is Tower Bridge?</a>
+                    <a href="about.html" class="nav-link">About this project</a>
+                </div>
+                <div class="theme-switch-wrapper">
+                    <label class="theme-switch" for="checkbox">
+                        <input type="checkbox" id="checkbox" />
+                        <div class="slider round">
+                            <span class="icon moon-icon">🌙</span>
+                            <span class="icon sun-icon">☀️</span>
+                        </div>
+                    </label>
+                </div>
+            </div>
+        </nav>
+
+        <header>
+            <h1>Tower Bridge Lifts</h1>
+            <p class="subtitle">Real-time schedule for London's Iconic Tower Bridge</p>
+        </header>
+
+        <section id="status-section" class="status-card">
+            <div class="loader"></div>
+            <h2>Is it lifting today?</h2>
+            <div id="today-status" class="status-value">Checking...</div>
+            <div id="today-details" class="details"></div>
+        </section>
+
+        <section id="upcoming-section">
+            <h2>Upcoming Lifts</h2>
+            <div id="lifts-list" class="lifts-grid">
+                <!-- Lifts will be injected here -->
+            </div>
+        </section>
+
+        <footer>
+            <p id="last-updated" class="last-updated"></p>
+            <p>Made with ❤️ by <a href="https://github.com/surajnarwade" target="_blank" rel="noopener">Suraj
+                    Narwade</a></p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
