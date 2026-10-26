@@ -1,18 +1,6 @@
 {
-  "last_updated": "2026-10-19 11:28:15",
+  "last_updated": "2026-10-26 11:47:21",
   "lifts": [
-    {
-      "full_date": "Saturday 24 October 2026",
-      "day": "Saturday",
-      "date": 24,
-      "month": "October",
-      "year": 2026,
-      "date_dmy": "24/10/2026",
-      "time": "23:30",
-      "vessel": "Dutch Master",
-      "direction": "Upriver",
-      "vessel_type": "Motor Vessel"
-    },
     {
       "full_date": "Saturday 31 October 2026",
       "day": "Saturday",
