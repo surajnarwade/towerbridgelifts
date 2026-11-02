@@ -1,17 +1,89 @@
 {
-  "last_updated": "2026-10-26 11:47:21",
+  "last_updated": "2026-11-02 14:04:02",
   "lifts": [
     {
-      "full_date": "Saturday 31 October 2026",
-      "day": "Saturday",
-      "date": 31,
-      "month": "October",
+      "full_date": "Monday 2 November 2026",
+      "day": "Monday",
+      "date": 2,
+      "month": "November",
       "year": 2026,
-      "date_dmy": "31/10/2026",
-      "time": "16:15",
+      "date_dmy": "02/11/2026",
+      "time": "18:15",
+      "vessel": "VB Boluman",
+      "direction": "Upriver",
+      "vessel_type": "Marine Towage and Salvage/Tugboat"
+    },
+    {
+      "full_date": "Monday 2 November 2026",
+      "day": "Monday",
+      "date": 2,
+      "month": "November",
+      "year": 2026,
+      "date_dmy": "02/11/2026",
+      "time": "18:45",
+      "vessel": "VB Boluman",
+      "direction": "Downriver",
+      "vessel_type": "Marine Towage and Salvage/Tugboat"
+    },
+    {
+      "full_date": "Monday 2 November 2026",
+      "day": "Monday",
+      "date": 2,
+      "month": "November",
+      "year": 2026,
+      "date_dmy": "02/11/2026",
+      "time": "18:45",
+      "vessel": "Vessel",
+      "direction": "Downriver",
+      "vessel_type": ""
+    },
+    {
+      "full_date": "Tuesday 3 November 2026",
+      "day": "Tuesday",
+      "date": 3,
+      "month": "November",
+      "year": 2026,
+      "date_dmy": "03/11/2026",
+      "time": "22:15",
+      "vessel": "Dixie Queen",
+      "direction": "Upriver",
+      "vessel_type": "Paddle Steamer"
+    },
+    {
+      "full_date": "Tuesday 3 November 2026",
+      "day": "Tuesday",
+      "date": 3,
+      "month": "November",
+      "year": 2026,
+      "date_dmy": "03/11/2026",
+      "time": "23:00",
+      "vessel": "Dixie Queen",
+      "direction": "Downriver",
+      "vessel_type": "Paddle Steamer"
+    },
+    {
+      "full_date": "Thursday 5 November 2026",
+      "day": "Thursday",
+      "date": 5,
+      "month": "November",
+      "year": 2026,
+      "date_dmy": "05/11/2026",
+      "time": "22:30",
       "vessel": "Dutch Master",
       "direction": "Upriver",
       "vessel_type": "Motor Vessel"
+    },
+    {
+      "full_date": "Friday 6 November 2026",
+      "day": "Friday",
+      "date": 6,
+      "month": "November",
+      "year": 2026,
+      "date_dmy": "06/11/2026",
+      "time": "10:15",
+      "vessel": "Vessel",
+      "direction": "Upriver",
+      "vessel_type": ""
     },
     {
       "full_date": "Friday 6 November 2026",
@@ -44,7 +116,7 @@
       "month": "November",
       "year": 2026,
       "date_dmy": "06/11/2026",
-      "time": "22:30",
+      "time": "23:00",
       "vessel": "Dixie Queen",
       "direction": "Upriver",
       "vessel_type": "Paddle Steamer"
@@ -56,10 +128,22 @@
       "month": "November",
       "year": 2026,
       "date_dmy": "06/11/2026",
-      "time": "23:15",
+      "time": "23:45",
       "vessel": "Dixie Queen",
       "direction": "Downriver",
       "vessel_type": "Paddle Steamer"
+    },
+    {
+      "full_date": "Monday 9 November 2026",
+      "day": "Monday",
+      "date": 9,
+      "month": "November",
+      "year": 2026,
+      "date_dmy": "09/11/2026",
+      "time": "13:00",
+      "vessel": "Vessel",
+      "direction": "Downriver",
+      "vessel_type": ""
     },
     {
       "full_date": "Wednesday 11 November 2026",
@@ -72,6 +156,66 @@
       "vessel": "Edwardian",
       "direction": "Upriver",
       "vessel_type": "Passenger Ship"
+    },
+    {
+      "full_date": "Saturday 14 November 2026",
+      "day": "Saturday",
+      "date": 14,
+      "month": "November",
+      "year": 2026,
+      "date_dmy": "14/11/2026",
+      "time": "09:25",
+      "vessel": "Jubilant",
+      "direction": "Upriver",
+      "vessel_type": "Royal Shallop"
+    },
+    {
+      "full_date": "Thursday 26 November 2026",
+      "day": "Thursday",
+      "date": 26,
+      "month": "November",
+      "year": 2026,
+      "date_dmy": "26/11/2026",
+      "time": "18:00",
+      "vessel": "Dixie Queen",
+      "direction": "Upriver",
+      "vessel_type": "Paddle Steamer"
+    },
+    {
+      "full_date": "Thursday 26 November 2026",
+      "day": "Thursday",
+      "date": 26,
+      "month": "November",
+      "year": 2026,
+      "date_dmy": "26/11/2026",
+      "time": "18:45",
+      "vessel": "Dixie Queen",
+      "direction": "Downriver",
+      "vessel_type": "Paddle Steamer"
+    },
+    {
+      "full_date": "Thursday 26 November 2026",
+      "day": "Thursday",
+      "date": 26,
+      "month": "November",
+      "year": 2026,
+      "date_dmy": "26/11/2026",
+      "time": "22:00",
+      "vessel": "Dixie Queen",
+      "direction": "Upriver",
+      "vessel_type": "Paddle Steamer"
+    },
+    {
+      "full_date": "Thursday 26 November 2026",
+      "day": "Thursday",
+      "date": 26,
+      "month": "November",
+      "year": 2026,
+      "date_dmy": "26/11/2026",
+      "time": "22:45",
+      "vessel": "Dixie Queen",
+      "direction": "Downriver",
+      "vessel_type": "Paddle Steamer"
     },
     {
       "full_date": "Friday 27 November 2026",
@@ -122,6 +266,30 @@
       "vessel_type": "Paddle Steamer"
     },
     {
+      "full_date": "Wednesday 2 December 2026",
+      "day": "Wednesday",
+      "date": 2,
+      "month": "December",
+      "year": 2026,
+      "date_dmy": "02/12/2026",
+      "time": "18:30",
+      "vessel": "Dixie Queen",
+      "direction": "Upriver",
+      "vessel_type": "Paddle Steamer"
+    },
+    {
+      "full_date": "Wednesday 2 December 2026",
+      "day": "Wednesday",
+      "date": 2,
+      "month": "December",
+      "year": 2026,
+      "date_dmy": "02/12/2026",
+      "time": "19:00",
+      "vessel": "Dixie Queen",
+      "direction": "Downriver",
+      "vessel_type": "Paddle Steamer"
+    },
+    {
       "full_date": "Saturday 5 December 2026",
       "day": "Saturday",
       "date": 5,
@@ -165,6 +333,30 @@
       "year": 2026,
       "date_dmy": "06/12/2026",
       "time": "00:00",
+      "vessel": "Dixie Queen",
+      "direction": "Downriver",
+      "vessel_type": "Paddle Steamer"
+    },
+    {
+      "full_date": "Thursday 31 December 2026",
+      "day": "Thursday",
+      "date": 31,
+      "month": "December",
+      "year": 2026,
+      "date_dmy": "31/12/2026",
+      "time": "19:15",
+      "vessel": "Dixie Queen",
+      "direction": "Upriver",
+      "vessel_type": "Paddle Steamer"
+    },
+    {
+      "full_date": "Thursday 31 December 2026",
+      "day": "Thursday",
+      "date": 31,
+      "month": "December",
+      "year": 2026,
+      "date_dmy": "31/12/2026",
+      "time": "19:45",
       "vessel": "Dixie Queen",
       "direction": "Downriver",
       "vessel_type": "Paddle Steamer"
